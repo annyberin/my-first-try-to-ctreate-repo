@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="whole-page">
+      <h1>Weather Forecast</h1>
+      <form>
+        <div class="form-group row">
+          <div class="col-xs-10">
+            <input
+              type="search"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="type your city..."
+            />
+          </div>
+          <button id="search-button" type="submit" class="btn btn-primary">
+            Search
+          </button>
+        </div>
+        <button id="current-button" type="button" class="btn btn-success">
+          Current
+        </button>
+      </form>
+
+      <div class="main-information">
+        <h2 id="today">Current day and time</h2>
+        <h3>Kyiv, Ukraine</h3>
+
+        <p id="temp-day">15 ℃</p>
+        <p id="show-humidity">Humidity</p>
+        <p id="show-wind">Wind</p>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

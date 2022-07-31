@@ -1,0 +1,42 @@
+.whole-page {
+  background: #fff;
+  border: 2px solid #9ca1ac;
+  border-radius: 30px;
+  margin: 100px 800px 10px 100px;
+  padding: 15px 15px 0px;
+}
+.main-information {
+  position: relative;
+  top: 20px;
+}
+h1 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#today {
+  font-size: 21px;
+  padding: 6px 0px 0px;
+}
+
+form {
+  top: 60px;
+}
+
+#temp-day {
+  font-size: 30px;
+}
+
+#show-humidity,
+#show-wind {
+  font-size: 18px;
+  position: relative;
+  top: -75px;
+  right: -300px;
+}
+#current-button {
+  position: relative;
+  top: 15px;
+  right: -510px;
+}
